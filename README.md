@@ -2,7 +2,7 @@
 
 A high-performance machine learning system for predicting diabetes using the Pima Indians Diabetes Dataset (PIDD). This project implements a **Hybrid Ensemble Stacking Architecture** (CNN-LSTM + CatBoost + Random Forest) that achieves **87.01% accuracy**, significantly outperforming standard benchmarks.
 
-## 📂 Repository Contents
+## Repository Contents
 
 | File | Description |
 |------|-------------|
@@ -11,17 +11,17 @@ A high-performance machine learning system for predicting diabetes using the Pim
 | `Presentation.pptx` | Project presentation slides covering methodology, architecture, and results. |
 | `diabetes.csv` | The Pima Indians Diabetes Dataset used for training and testing. |
 
-## 🚀 Key Features
+## Key Features
 - **Accuracy:** 87.01% (vs. ~76-81% in standard research papers)
 - **Methodology:** Stacked Ensemble of CNN-LSTM, CatBoost, and Random Forest
 - **Techniques:** Group-wise median imputation, Clinical feature engineering, Robust scaling
 
-## 🛠️ Usage
+## Usage
 1. Clone the repo:
    ```bash
    git clone https://github.com/conuckrater14/Diabetes-Prediction.git
    ```
 2. Open `PIDDv3.ipynb` in Jupyter Notebook or Google Colab to run the model.
 
-## 👤 Author
+## Author
 - **GitHub:** [conuckrater14](https://github.com/conuckrater14)
